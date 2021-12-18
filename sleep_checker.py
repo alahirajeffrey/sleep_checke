@@ -6,7 +6,7 @@ NOTIFICATION_COUNTER = 0
 
 while True:
     # sleep for 20 minutes before notification
-    time.sleep(10)
+    time.sleep(1200)
 
     # show notification
     notification.notify(
@@ -14,7 +14,7 @@ while True:
         message='Are you awake or asleep',
         app_name="",
         app_icon=r"C:\Users\Jeffrey Alahira\Documents\Python\sleep_checker\sleep.ico",
-        timeout=2,
+        timeout=60,
     )
 
     # count number of times notification shows
